@@ -1,23 +1,45 @@
+# DexSpyder Solana Sniper (CLI)
+
+A Node.js command-line tool for Solana trading workflows using the **Raydium** SDK (`@raydium-io/raydium-sdk`), **Solana Web3**, and SPL token utilities. It targets sniper-style automation and on-chain interaction patterns used with DEX liquidity.
+
+## Requirements
+
+- Node.js 18+
+- npm or Yarn
 
 ## Installation
 
-1. Clone this repository to your local machine.
-2. Navigate to the cloned directory .
-3. Install dependencies using your package manager of choice: `npm install` or `yarn install`.
+```bash
+git clone <repository-url>
+cd Solana-Sniper-with-DexSpyder
+npm install
+# or: yarn install
+```
 
+## Running
 
-## Verbose Manual
+```bash
+npm run start
+```
 
-Go to `Sniper Mode` => `usage` 
+Use the in-app **Settings** menu for wallet and strategy configuration where supported.
 
-## Usage:
-start Application: `npm run start`.
+## Configuration
 
-## Config
+Prefer configuring wallets, RPC endpoints, and strategy parameters inside the application **Settings** UI rather than hard-coding secrets. Never commit private keys or seed phrases.
 
-All configurations should prefereably be done inside the settings menu of the application.
+## Documentation
 
-# Contributing
+For detailed usage, open the app and go to **Sniper Mode → Usage**.
 
-Contributions are welcome! If you find a bug or want to enhance the application, feel free to create an issue or submit a pull request.
+## Contributing
 
+Issues and pull requests are welcome. Please describe reproduction steps for bugs and keep security-sensitive data out of the repository.
+
+## Disclaimer
+
+Trading cryptocurrencies and using automated bots involves substantial risk. This software is provided for educational and research purposes. You are solely responsible for compliance with laws and exchange terms in your jurisdiction.
+
+## License
+
+See `package.json` (`license` field) for the declared license.
